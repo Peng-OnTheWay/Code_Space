@@ -1,0 +1,19 @@
+# --- C语言编译垃圾 (Windows) ---
+*.exe
+*.obj
+*.o
+*.out
+
+# --- 调试与临时文件 ---
+*.pdb
+*.ilk
+*.dSYM
+*.suo
+*.user
+
+# --- 系统自带垃圾 ---
+Thumbs.db
+Desktop.ini
+
+# --- 假如你未来用 VS Code ---
+.vscode/
