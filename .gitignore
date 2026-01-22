@@ -15,5 +15,24 @@
 Thumbs.db
 Desktop.ini
 
-# --- 假如你未来用 VS Code ---
-.vscode/
+# --- Visual Studio 2022 核心垃圾 ---
+.vs/
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# --- 编译中间文件 ---
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.log
+
+# --- 用户配置文件 (这是你的私有设置) ---
+*.user
+*.suo
+*.opensdf
+*.sdf
